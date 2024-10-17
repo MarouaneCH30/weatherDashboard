@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 function App() {
   return (
-    <div className="App m-6">
+    <div className="App flex justify-center items-center">
       <Wallpaper />
       <motion.div
         className={"container"}
